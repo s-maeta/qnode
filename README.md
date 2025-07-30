@@ -1,6 +1,6 @@
-# qts
+# qnode
 
-[![npm version](https://badge.fury.io/js/qts.svg)](https://badge.fury.io/js/qts)
+[![npm version](https://badge.fury.io/js/qnode.svg)](https://badge.fury.io/js/qnode)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Quick TypeScript Setup - A lightweight CLI tool to instantly scaffold a Node.js + TypeScript project with zero configuration.
@@ -8,13 +8,13 @@ Quick TypeScript Setup - A lightweight CLI tool to instantly scaffold a Node.js 
 ## Installation
 
 ```bash
-npm install -g qts
+npm install -g qnode
 ```
 
 or using npx (no installation required):
 
 ```bash
-npx qts my-project
+npx qnode my-project
 ```
 
 ## Usage
@@ -22,12 +22,12 @@ npx qts my-project
 Create a new TypeScript project:
 
 ```bash
-qts <project-name>
+qnode <project-name>
 ```
 
 Example:
 ```bash
-qts my-awesome-app
+qnode my-awesome-app
 cd my-awesome-app
 npm run dev
 ```
@@ -63,9 +63,9 @@ my-project/
 - Node.js 14.x or higher
 - npm 6.x or higher
 
-## Why qts?
+## Why qnode?
 
-Unlike other TypeScript starters that come with complex build tools, bundlers, and configurations, `qts` focuses on simplicity. It's perfect for:
+Unlike other TypeScript starters that come with complex build tools, bundlers, and configurations, `qnode` focuses on simplicity. It's perfect for:
 
 - Quick prototypes
 - Learning TypeScript
@@ -78,8 +78,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qts.git
-cd qts
+git clone https://github.com/yourusername/qnode.git
+cd qnode
 
 # Install dependencies
 npm install
@@ -89,7 +89,7 @@ npm run build
 
 # Test locally
 npm link
-qts test-project
+qnode test-project
 ```
 
 ## License

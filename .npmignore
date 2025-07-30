@@ -36,10 +36,6 @@ docs/
 # Build artifacts
 *.map
 
-# Test projects created during development
-test-project/
-test-project2/
-
 # Git
 .git/
 .github/

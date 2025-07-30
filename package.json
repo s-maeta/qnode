@@ -1,10 +1,10 @@
 {
-  "name": "qts",
+  "name": "qnode",
   "version": "1.0.0-beta",
   "description": "Create a very simple Node.js + TypeScript execution environment",
   "main": "./bin/cli.js",
   "bin": {
-    "qts": "./bin/cli.js"
+    "qnode": "./bin/cli.js"
   },
   "scripts": {
     "build": "tsc",
