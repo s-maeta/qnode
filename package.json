@@ -1,0 +1,29 @@
+{
+  "name": "qts",
+  "version": "1.0.0-beta",
+  "description": "Create a very simple Node.js + TypeScript execution environment",
+  "main": "./bin/cli.js",
+  "bin": {
+    "qts": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "cli",
+    "scaffold"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
+}

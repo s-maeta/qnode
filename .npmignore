@@ -1,0 +1,44 @@
+# Source files (only compiled JS needed)
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+.npmignore
+
+# Development files
+*.log
+*.tgz
+.DS_Store
+node_modules/
+.npm/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation source
+docs/
+*.md
+!README.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.map
+
+# Test projects created during development
+test-project/
+test-project2/
+
+# Git
+.git/
+.github/
